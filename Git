@@ -1,25 +1,46 @@
-Repository
+# Git Summary
+1. Clone or Pull: 	git clone URL | git pull
+2. Create branch: 	git checkout -d <branch>
+----- Changes ---------
+3. Changes:		git status
+4. Add: 		git add <file> or git add *
+5. Commit:		git commit -m "<message>"
+6. Push:		git push origin <branch>
+----- Merge Request ---
+List branches:		git branch
+History:		git log --pretty=oneline
+Switch: 		git checkout <branch>
+Delete:			git branch -d <branch>
+Diff:			git branch <source-branch> <target-branch>
+
+
+-------------------------------------------------------
+---------------------- DETAILS ------------------------
+
+# Repository
 New:       git init
-Clone:     username@host:/path/to/repository
+Clone:     git clone username@host:/path/to/repository
 Pull:      git pull
 History:   git log --pretty=oneline
 
-Branches
-Create:    git checkout -b <branch>
-Delete     git branch -d <branch>
-Switch     git checkout master
-Diff       git diff <source-branch> <target-branch>
+# Branches
+List:			git branch
+Create & Switch:    	git checkout -b <branch>
+ - Create		git branch <branch>
+ - Switch		git checkout <branch>
+Delete     		git branch -d <branch>
+Switch      		git checkout <branch> 
+Diff       		git diff <source-branch> <target-branch>
 
-Add & remove Index
-Status:    git status
-Add file:  git add <file>
-All all:   git add *
-Remove:    git rm <file>
+# Add & remove Index
+Status:    		git status
+Add file:  		git add <file> | git add *
+Remove:    		git rm <file>
 
-Commit & Push
-Commit:    git commit -u "message"
+# Commit & Push
+Commit:    		git commit -u "message"
 Push:      git push origin <branch>
 
-Merge & Tag
+# Merge & Tag
 Merge     git merge <branch>
 Tag       git tag <tag> <commit-ID>
