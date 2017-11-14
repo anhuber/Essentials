@@ -1,0 +1,25 @@
+Repository
+New:       git init
+Clone:     username@host:/path/to/repository
+Pull:      git pull
+History:   git log --pretty=oneline
+
+Branches
+Create:    git checkout -b <branch>
+Delete     git branch -d <branch>
+Switch     git checkout master
+Diff       git diff <source-branch> <target-branch>
+
+Add & remove Index
+Status:    git status
+Add file:  git add <file>
+All all:   git add *
+Remove:    git rm <file>
+
+Commit & Push
+Commit:    git commit -u "message"
+Push:      git push origin <branch>
+
+Merge & Tag
+Merge     git merge <branch>
+Tag       git tag <tag> <commit-ID>

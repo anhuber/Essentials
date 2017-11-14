@@ -1,0 +1,16 @@
+
+#get all networkservices (interfaces)
+sudo networksetup -listallnetworkservices
+An asterisk (*) denotes that a network service is disabled.
+Thunderbolt Ethernet
+iPhone
+Wi-Fi
+Bluetooth PAN
+Thunderbolt Bridge
+
+#check proxy setting for a specific webproxy
+sudo networksetup -getwebproxy Wi-Fi
+Enabled: No
+Server:
+Port: 0
+Authenticated Proxy Enabled: 0
